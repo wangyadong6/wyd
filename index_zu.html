@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SO注册</title>
+	<link rel="stylesheet" type="text/css" href="css/csszu.css">
+</head>
+<body>
+		<div class="box1">
+			<div>
+				<img src="img/logo.jpg" alt="">
+			</div>
+		</div>
+		<div class="box2">
+			<p>已有账户直接/<a href="">登录>></a></p>
+		</div>
+		<div class="box3">
+			<form action="" method="">
+				<div class="formleft">
+					手机号&nbsp&nbsp&nbsp&nbsp<input type="text"><br>
+					验证码&nbsp&nbsp&nbsp&nbsp<input type="text"><br>
+					邮箱&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text"><br>
+					密码&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="password"><br>
+					确认密码&nbsp&nbsp<input type="password">
+				</div>
+				<div class="formright">
+					学校性质<input type="radio">国营
+					<input type="radio">民营<br>
+					学校名称<input type="text"><br>
+					工商证号<input type="text"><br>
+					联系人<input type="radio">先生
+					<input type="radio">女士<br>
+
+					<label for="addr-show">您选择的是：
+		            <input type="text" value="" id="addr-show">
+		            </label>
+		            <br/>
+		            <!--省份选择-->
+		            <select id="prov" onchange="showCity(this)">
+		                <option>=请选择省份=</option>
+		 
+		            </select>
+		 
+		            <!--城市选择-->
+		            <select id="city" onchange="showCountry(this)">
+		                <option>=请选择城市=</option>
+		            </select>
+		 
+		            <!--县区选择-->
+		            <select id="country" onchange="selecCountry(this)">
+		                <option>=请选择县区=</option>
+		            </select>
+            		<button type="button" class="btn met1" onClick="showAddr()" id="button-show" >确定</button>
+				</div>
+				<div class="formcentent">
+					<input type="submit">
+				</div>
+			</form>
+		</div>
+		<div class="box4">
+			<ul>
+				<li>关于我们</li>
+				<li>意见反馈</li>
+				<li>加入我们</li>
+				<li>商业合作</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
+
+
+<script src="js/city.js"></script>
+<script src="js/method.js"></script>

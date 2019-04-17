@@ -1,0 +1,115 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.box1{
+	width:100%;
+	min-width: 1900px;
+	height:60px;
+	border-bottom:2px solid black;	
+}
+.box1_1{
+	width: 10%;
+	height: 60px;
+	float: left;
+	margin-left:60px;
+}
+.box1_1 img{
+	width: 100%;
+	height: 60px;
+}
+.box1_2{
+	width: 20%;
+	height: 60px;
+	float: right;
+}
+.box1_2 p{
+	margin-top: 30px;
+}
+.box1_2 a{
+	text-decoration: none;
+}
+
+
+.box3{
+	clear: both;
+	width: 100%;
+	min-width: 1920px;
+	height: 700px;
+	margin-top: 5px;
+	border: 1px solid;
+
+}
+.box3 a{
+	display: inline-block;
+}
+.box3_1{	
+	width: 41%;
+	height: 555px;
+	margin-left: 50%;
+	margin-top:40px;
+}
+.box3_1_1{
+	width: 40%;
+	height: 100%;
+	background:rgba(255,255,255,0.2);
+	float: left;
+}
+.box3_1_2{
+	width: 60%;
+	height: 100%;
+	background:rgba(255,255,255,0.5);
+	float:right;
+}
+
+.box3_1_1_1 ul{
+	margin-top: 30%;
+	margin-left: 35px;
+	text-align: left;
+	line-height: 222%;
+	font-size: 30px;
+
+}
+.box3_1_1_1 ul li{
+	font-size: 20px;
+}
+hr{
+	width: 80%;
+	height: 7px;
+	margin: 40px auto 10px auto;
+	background: black;
+	border: none;
+}
+.a1,.a2{
+	font-size: 30px;
+	float: left;
+	margin-left:77px;
+	color: black;
+}
+
+
+.form div input{
+	width: 250px;
+    height: 40px;
+    margin:10px auto;
+}
+
+.box4{
+	clear: both;
+	width: 100%;
+	min-width: 1500px;
+	height: 50px;
+	border-bottom: 4px solid black;
+	margin: 30 auto;
+	line-height: 65px;   			
+}
+.box4 ul{
+	width: 100%;
+}
+.box4 ul li{
+	list-style: none;
+	float: left;
+	margin-left: 14%;
+}
